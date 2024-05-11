@@ -62,8 +62,8 @@ def history_cleaner():
 
 
 def call_emby_api(date=None):
-    EMBY_URL = 'https://gigasnow.synology.me:8921/emby/System/ActivityLog/Entries'
-    API_KEY = '11012a4a9c684ad4862c63db2acb83fa'
+    EMBY_URL = 'your emby server url'
+    API_KEY = 'your emby server api'
     
     if date:
         ITEMS_URL = f'{EMBY_URL}?api_key={API_KEY}&MinDate={date}'
